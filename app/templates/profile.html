@@ -1,0 +1,26 @@
+{% extends "layout.html"%}
+{% block body%}
+
+<h3>Profile</h3>
+<div class="container">
+    <form action="" method="POST">
+        <div class="form group">
+            <input type="text" name="username" class="form-control" placeholder ="username" required>
+        </div>
+
+        <div class="form group">
+            <input type="text" name="name" class="form-control" placeholder ="name" required>
+        </div>
+
+        <div class="form group">
+            <input type="text" name="location" class="form-control" placeholder ="location" required>
+        </div>
+
+
+
+        <button class="btn btn-primary" type= "submit">submit</button>
+
+
+    </form>
+</div>
+{% endblock%}
